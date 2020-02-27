@@ -1,17 +1,18 @@
 {
-  "name": "conventional-commit-types",
+  "name": "conventional-commit-types-cn",
   "version": "3.0.0",
-  "description": "List of conventional commit types.",
+  "description": "List of conventional commit types with Chinese.",
   "main": "index.json",
   "scripts": {
     "test": "json -f index.json"
   },
   "keywords": [],
-  "author": "Anders D. Johnson",
+  "author": "JaremyCheng",
+  "Original author": "Anders D. Johnson",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/conventional-commit-types.git"
+    "url": "https://JaremyCheng@github.com/JaremyCheng/conventional-commit-types.git"
   },
   "devDependencies": {
     "json": "^9.0.4"

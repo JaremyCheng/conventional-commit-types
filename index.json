@@ -1,48 +1,48 @@
 {
   "types": {
     "feat": {
-      "description": "A new feature",
-      "title": "Features"
+      "description": "一个新的功能",
+      "title": "新功能(Feature)"
     },
     "fix": {
-      "description": "A bug fix",
-      "title": "Bug Fixes"
+      "description": "修复了一个bug",
+      "title": "Bug修复"
     },
     "docs": {
-      "description": "Documentation only changes",
-      "title": "Documentation"
+      "description": "只修改了文档部分",
+      "title": "文档(Documentation)"
     },
     "style": {
-      "description": "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)",
-      "title": "Styles"
+      "description": "不影响代码运行的样式变动(white-space, formatting, missing semi-colons, etc)",
+      "title": "样式变动(Styles)"
     },
     "refactor": {
-      "description": "A code change that neither fixes a bug nor adds a feature",
-      "title": "Code Refactoring"
+      "description": "非Bug修复或者新增功能的代码变动",
+      "title": "代码重构(Code Refactoring)"
     },
     "perf": {
-      "description": "A code change that improves performance",
-      "title": "Performance Improvements"
+      "description": "性能优化的代码变动",
+      "title": "性能优化(Performance Improvements)"
     },
     "test": {
-      "description": "Adding missing tests or correcting existing tests",
-      "title": "Tests"
+      "description": "增加确实的测试代码或者修正测试代码",
+      "title": "测试(Tests)"
     },
     "build": {
-      "description": "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)",
-      "title": "Builds"
+      "description": "影响系统部署或者外部依赖引用的代码变动(例如修改: gulp, broccoli, npm)",
+      "title": "部署(Builds)"
     },
     "ci": {
-      "description": "Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)",
-      "title": "Continuous Integrations"
+      "description": "对Ci配置文件和脚本的代码变动 (例如修改: Travis, Circle, BrowserStack, SauceLabs)",
+      "title": "持续集成(Continuous Integrations)"
     },
     "chore": {
-      "description": "Other changes that don't modify src or test files",
-      "title": "Chores"
+      "description": "其他不修改到src或者测试文件的代码变动",
+      "title": "杂项(Chores)"
     },
     "revert": {
-      "description": "Reverts a previous commit",
-      "title": "Reverts"
+      "description": "回滚到上一个commit",
+      "title": "回滚(Reverts)"
     }
   }
 }
